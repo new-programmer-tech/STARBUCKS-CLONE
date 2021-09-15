@@ -1,6 +1,54 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,200;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* HEADER:----------------------- */
+
+header {
+  padding: 10px 30px;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .star-logo {
+  width: 77px;
+  cursor: pointer;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+}
+
+.right ul {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.left ul {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.left button {
+  cursor: pointer;
+}
