@@ -10,7 +10,25 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+
+/* UTILITY CLASSES */
+
+.margin{
+  margin: 3rem 2rem 3rem 2rem;
+}
+
+
+.flex-basis{
+  flex-basis: 50%;
+}
+
+.img-width
+{
+  width: 100%;
+}
 /* HEADER:----------------------- */
+
+
 
 header {
   padding: 10px 30px;
@@ -57,19 +75,12 @@ ul li {
 
 section.pickup {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   background-color: #f2f0eb;
-  margin: 3rem 2rem 3rem 2rem;
-}
-
-.mobile-img {
-  width: 100%;
-  
 }
 
 .card-1 {
   display: flex;
-  flex-basis: 50%;
 }
 
 .content {
@@ -80,4 +91,26 @@ section.pickup {
   align-items: center;
   text-align: center;
   align-self: center;
+}
+
+/* CARD-2 - DISCOVER */
+
+section.discover {
+  display: flex;
+  background-color: #ebdbc8;
+}
+
+
+/* CARD-2 - ORDER-NOW */
+
+section.order-now {
+  background-color: #1e3932;
+  display: flex;
+}
+
+
+/* ORDER NOW-2 */
+
+section.ordernow-2{
+  background-color: #d4e9e2;
 }
