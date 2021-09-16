@@ -16,15 +16,15 @@
             <img class="star-logo" src="img/logo.png" alt="" />
           </div>
           <ul>
-            <li>MENU</li>
-            <li>REWARDS</li>
-            <li>GIFT CARDS</li>
+            <li class="hovers">MENU</li>
+            <li class="hovers">REWARDS</li>
+            <li class="hovers">GIFT CARDS</li>
           </ul>
         </div>
 
         <div class="left">
           <ul>
-            <li>
+            <li class="hovers">
               <i
                 style="margin-right: 1rem"
                 class="fa fa-map-marker"
@@ -32,8 +32,8 @@
               ></i
               >find a store
             </li>
-            <li><button class="btn">Sign in</button></li>
-            <li><button class="btn">Join now</button></li>
+            <li><button class="btn btn-white">Sign in</button></li>
+            <li><button class="btn btn-black">Join now</button></li>
           </ul>
         </div>
       </nav>
@@ -41,7 +41,7 @@
 
     <!-- CARDS-------------------------- -->
 
-    <section class="pickup margin">
+    <section class="pickup bg-pickup margin">
       <div class="card-1 flex-basis">
         <img
           class="img-width"
@@ -50,23 +50,25 @@
         />
       </div>
 
-      <div class="content flex-basis">
+      <div class="content content-1 flex-basis">
         <h1>Fall into an easier routine</h1>
         <p>Get your favorites, your way—order, pay and pick up with the app.</p>
-        <button class="btn">See pickup options</button>
+        <button class="btn bg-pickup btn-margin">See pickup options</button>
       </div>
     </section>
 
-    <!-- DISCOVER------------------------------------------ -->
+    <!-- DISCOVER------------------------------------ -->
 
-    <section class="discover margin">
-      <div class="content">
+    <section class="discover bg-discover margin">
+      <div class="content content-2 flex-basis">
         <h1>COMFORT TO THE CORE</h1>
         <p>
           Introducing the new Apple Crisp Macchiato with notes of caramelized
           apples, brown sugar and spiced apple drizzle. Available hot or iced.
         </p>
-        <button class="btn">Discover your new fave</button>
+        <button class="btn btn-border bg-discover btn-margin">
+          Discover your new fave
+        </button>
       </div>
 
       <div class="coffee flex-basis">
@@ -80,7 +82,7 @@
 
     <!-- ORDER-NOW-1 ---------------------------------===========-->
 
-    <section class="order-now margin flex-basis">
+    <section class="bg-order-now margin flex">
       <div class="order-img flex-basis">
         <img
           class="img-width"
@@ -89,19 +91,75 @@
         />
       </div>
 
-      <div class="content flex-basis">
+      <div class="content content-3 flex-basis">
         <h1>HEARTY ON THE GO</h1>
         <p>
           Tackle your mornings with a warm and toasty protein-packed breakfast
           like the Bacon, Gouda & Egg Sandwich or the Double-Smoked Bacon,
           Cheddar & Egg Sandwich.
         </p>
-        <button class="btn">Order now</button>
+        <button class="btn btn-border bg-order-now btn-w-text btn-margin">
+          Order now
+        </button>
       </div>
     </section>
 
-    <!-- ORDER-NOW-2---------------------------------------------- -->
+    <!-- ORDER-NOW-2-UBER-------------------- -->
 
-    <section class="ordernow-2"></section>
+    <section class="bg-uber margin flex">
+      <div class="order-img flex-basis">
+        <img class="img-width" src="img/delivery.jpg" alt="" />
+      </div>
+
+      <div class="content content-4 flex-basis">
+        <h1>TODAY DESERVES DELIVERY</h1>
+        <p>
+          For a limited time, enjoy $0 Delivery Fee on Starbucks orders over $20
+          on Uber Eats*.
+        </p>
+        <button class="btn btn-border bg-uber btn-margin">Order now</button>
+      </div>
+    </section>
+
+    <!-- LEARN-MORE------------------- -->
+
+    <section class="bg-hunger margin flex">
+      <div class="order-img flex-basis">
+        <img class="img-width" src="img/donate.jpg" alt="" />
+      </div>
+
+      <div class="content content-5 flex-basis">
+        <h1>Join us in fighting hunger</h1>
+        <p>
+          September is Hunger Action Month™ and we're proud to be a longtime
+          partner of Feeding America®. Since 2016, we’ve helped donate nearly 34
+          million meals** to fight hunger – and counting.
+        </p>
+        <button class="btn btn-border bg-hunger btn-margin">Learn more</button>
+      </div>
+    </section>
+
+    <!-- TERMS AND CONDITIONs-->
+
+    <section class="terms">
+      <div class="top">
+        <p>
+          Terms, taxes and other fees may apply. Fees subject to change. Menu
+          limited. Restricted delivery area. Available in participating
+          locations only. Prices for Starbucks® items purchased through Uber
+          Eats may be higher than posted in stores or as marked. See the Uber
+          Eats app for details. Limited time offer. May not be combined with
+          other offers, discounts or promotions.
+        </p>
+      </div>
+
+      <div class="bottom">
+        <p>
+          **According to the USDA, 1.2 pounds of food is the equivalent to 1
+          meal. Nearly 34 million meals donated to Feeding America and other
+          hunger relief organizations.
+        </p>
+      </div>
+    </section>
   </body>
 </html>
