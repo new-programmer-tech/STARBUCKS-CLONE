@@ -12,8 +12,12 @@ body {
 
 /* UTILITY CLASSES */
 
-.btn-margin{
-  margin-top:5rem;
+.h-margin {
+  margin-bottom: 3.5rem;
+}
+
+.btn-margin {
+  margin-top: 5rem;
 }
 .margin {
   margin: 3rem 2rem 3rem 2rem;
@@ -100,6 +104,11 @@ header {
   padding: 10px 30px;
 }
 
+ul {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 nav.navbar {
   display: flex;
   justify-content: space-between;
@@ -140,7 +149,7 @@ ul li {
 
 /* CARDS */
 
-/*------------------ Pickup------------------------- */
+/*------------------ Pickup------------------ */
 
 section.pickup {
   display: flex;
@@ -161,10 +170,16 @@ section.pickup {
   align-self: center;
 }
 
-.content-1 h1 {
-  border: 2px solid;
+.style-h1 {
   font-size: 30px;
   font-weight: 900;
+}
+
+.style-p {
+  font-size: 19px;
+  max-width: 494px;
+  font-weight: 600;
+  line-height: 2;
 }
 
 /* CARD-2 - DISCOVER */
@@ -173,17 +188,75 @@ section.discover {
   display: flex;
 }
 
+.discover h1 {
+  font-size: 50px;
+  color: #1e3932;
+  letter-spacing: 8px;
+  max-width: 500px;
+}
+
+.discover p {
+  color: #1e3932;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.4;
+  max-width: 479px;
+}
+
+/* ORDER-NOW-1----- */
+
+.content-3 h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.content-3 p {
+  font-size: 25px;
+  color: #fff;
+  line-height: 1.5;
+  max-width: 492px;
+  font-weight: 900;
+}
+
+/* UBER------------------ */
+
+.content-4 h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #1e3932;
+  line-height: 1.2;
+  max-width: 408px;
+}
+
+.content-4 p {
+  color: #1e3932;
+  font-size: 28px;
+  font-weight: 600;
+  max-width: 515px;
+  line-height: 1.5;
+}
+
+.content-5 h1 {
+  margin-bottom: 2rem;
+}
 /* TERMS AND CONDITIONs */
 
 section.terms {
+  border-bottom: 2px solid;
   text-align: center;
   font-size: 20px;
-  padding: 50px 100px 160px;
+  padding: 50px 100px 60px;
   border-bottom: 2px solid black;
 }
 
 .bottom p {
   margin-top: 10rem;
+  max-width: 700px;
+  line-height: 1.4;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
 }
 
 .top {
@@ -193,4 +266,34 @@ section.terms {
 
 .top p {
   max-width: 900px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+/* ABOUT US-------------- */
+
+section.about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 50px;
+ 
+}
+
+/* FOOTER--------------- */
+
+.footer ul {
+  display: inline-flex;
+  margin-left: 32px;
+  flex-wrap: wrap;
+  padding-top:10px;
+}
+
+.fab {
+  color: #333;
+}
+
+.border {
+  margin: 0 4rem;
+  border-top: 2px solid;
 }
