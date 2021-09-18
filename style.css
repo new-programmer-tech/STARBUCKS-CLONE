@@ -298,111 +298,108 @@ section.about {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 768px) 
-
-{
-          section.pickup,
-          section.burgers,
-          section.hunger {
-            display: flex;
-            flex-direction: column;
-            margin: 2rem 0 0 0;
-          }
-
-          section.discover,
-          section.uber {
-            display: flex;
-            flex-direction: column-reverse;
-            margin: 2rem 0 0 0;
-          }
-
-          .style-h1 {
-            font-size: 27px;
-            margin: 1rem;
-          }
-
-          .btn-margin {
-            margin: 2rem 0 2rem;
-          }
-
-          .discover h1 {
-            font-size: 33px;
-            margin: 13px 0 20px;
-          }
-
-          .discover p {
-            font-size: 19px;
-            font-weight: 600;
-            max-width: 332px;
-          }
-
-          .content-3 h1 {
-            font-size: 28px;
-            margin-bottom: 16px;
-            margin-top: 26px;
-          }
-
-          .content-3 p {
-            font-size: 20px;
-            max-width: 300px;
-          }
-
-          .content-4 h1 {
-            font-size: 33px;
-            letter-spacing: 1px;
-            margin: 34px;
-          }
-
-          .content-4 p {
-            font-size: 22px;
-            max-width: 328px;
-          }
-
-          .style-p {
-            font-size: 18px;
-            max-width: 300px;}
-
-
-            section.terms {
-              padding: 20px 26px 0px;
-             
-          }
-
-          .top p , .bottom p {
-            max-width: 300px;
-            line-height: 1.8;
-            font-size: 12.2px;
-        }
-
-
-        .bottom p {
-          margin: 49px 0;
-          
-      }
-
-
-      section.about {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        padding:0;
-    }
-
-    .footer ul {
-      display: grid;
-      grid-template-columns: repeat(5,1fr);
-      margin-left:8px;
+@media (max-width: 768px) {
+  section.pickup,
+  section.burgers,
+  section.hunger {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 0 0;
   }
 
-  .footer ul li{
-    margin:2rem 0 2rem 0;
+  section.discover,
+  section.uber {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2rem 0 0 0;
   }
 
-    
+  .style-h1 {
+    font-size: 27px;
+    margin: 1rem;
+  }
 
+  .btn-margin {
+    margin: 2rem 0 2rem;
+  }
 
+  .discover h1 {
+    font-size: 33px;
+    margin: 13px 0 20px;
+  }
 
+  .discover p {
+    font-size: 19px;
+    font-weight: 600;
+    max-width: 332px;
+  }
 
+  .content-3 h1 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    margin-top: 26px;
+  }
 
+  .content-3 p {
+    font-size: 20px;
+    max-width: 300px;
+  }
+
+  .content-4 h1 {
+    font-size: 33px;
+    letter-spacing: 1px;
+    margin: 34px;
+  }
+
+  .content-4 p {
+    font-size: 22px;
+    max-width: 328px;
+  }
+
+  .style-p {
+    font-size: 18px;
+    max-width: 300px;
+  }
+
+  section.terms {
+    padding: 20px 26px 0px;
+  }
+
+  .top p,
+  .bottom p {
+    max-width: 300px;
+    line-height: 1.8;
+    font-size: 12.2px;
+  }
+
+  .bottom p {
+    margin: 49px 0;
+  }
+
+  section.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 14px;
+  }
+
+  .footer ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 8px;
+  }
+
+  .footer ul li {
+    margin: 2rem 0 2rem 0;
+  }
+
+  .about nav ul li {
+    margin: 10px 10px 20px;
+  }
+
+  .right ul,.left ul
+   {
+    display: none;
+  }
 
 
 
